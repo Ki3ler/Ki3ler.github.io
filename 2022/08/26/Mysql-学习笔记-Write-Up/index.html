@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Ki3ler"><title>Mysql Write Up · Ki3ler</title><meta name="description" content="第一天数据库：
+12345存储数据的仓库，令数据有组织的进行存储，Database（DB）
+
+ 
+
+
+数据库管理系统：
+123操纵和管理数据库的大型软件，  Database Management System （DBMS）
+
+SQL ：
+123操作关系型数据库的编程语言，定义了一套操作关系型数据统"><meta name="keywords" content="Blog,博客,Hexo"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="shortcut icon" type="image/x-icon"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/insight.css"><link rel="stylesheet" href="/css/search.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="/js/jquery.js"></script><meta name="generator" content="Hexo 6.2.0"></head><body><div class="page-top animated fadeInDown"><div class="nav"><li> <a href="/">首页</a></li><li> <a href="/archives">归档</a></li><li> <a href="/about">关于</a></li></div><div class="information"><div class="nav_right_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li><li><a class="fa fa-search" onclick="openWindow();"></a></li></div><div class="avatar"><img></div></div></div><div class="sidebar animated fadeInDown"><div class="sidebar-top"><div class="logo-title"><div class="title"><img src="/images/images.png" style="width:180px;" alt="favicon"><h3 title=""><a href="/">Ki3ler</a></h3><div class="description"><p>Ki3lerの小窝</p></div></div><ul class="social-links"><li><a target="_blank" rel="noopener" href="https://github.com/Ki3ler"><i class="fa fa-github"></i></a></li><li><a href="mailto:a19196438790@163.com"><i class="fa fa-envelope"></i></a></li><li><a target="_blank" rel="noopener" href="https://www.zhihu.com/people/1-12-24-3"><i class="fa fa-mortar-board"></i></a></li><li><a target="_blank" rel="noopener" href="https://twitter.com/Anna10834035"><i class="fa fa-twitter"></i></a></li></ul></div></div><div class="footer"><div class="p"> <span> 全站CC-BY-SA-3.0 </span><i class="fa fa-star"></i><span> Ki3ler</span></div><div class="by_farbox"><span>Powered by </span><a href="https://hexo.io/zh-cn/" target="_blank">Hexo </a><span> & </span><span>Anatolo </span></div><div class="beian"></div></div></div><div class="main"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post animated fadeInDown"><div class="post-title"><h3><a>Mysql Write Up</a></h3></div><div class="post-content"><p><h2 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h2><p>数据库：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line">存储数据的仓库，令数据有组织的进行存储，Database（DB）</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<span id="more"></span> 
+
+
+<p>数据库管理系统：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">操纵和管理数据库的大型软件，  Database Management System （DBMS）</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>SQL ：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">操作关系型数据库的编程语言，定义了一套操作关系型数据统一标准  Structured Query Language （SQL）</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>主流的关系型数据库操作系统：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">Oracle Mysql SQlserver PostgreSql DB2 Access SQLIte </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<p>关于版本：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">MySQL版本拥有社区版和收费版 </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="MySQL的下载："><a href="#MySQL的下载：" class="headerlink" title="MySQL的下载："></a>MySQL的下载：</h4><p>进入MySQL的官网，找到downloads，下载社区版本。<br>找到最下面的：</p>
+<p>MySQL Community (GPL) Downloads »</p>
+<p>如果是Windows的操作系统，可以选择：</p>
+<p>Mysql Installer for windows</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/v22Ha9"><img src="https://s1.ax1x.com/2022/08/26/v22Ha9.png" alt="v22Ha9.png"></a></p>
+<p>选择默认的开发者模式，Next。</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/v2ResS"><img src="https://s1.ax1x.com/2022/08/26/v2ResS.png" alt="v2ResS.png"></a></p>
+<p>检查所需要的环境：</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/v2ROoj"><img src="https://s1.ax1x.com/2022/08/26/v2ROoj.png" alt="v2ROoj.png"></a></p>
+<p>next时，选择Yes</p>
+<p>安装MySQL的组件：</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/v2WSS0"><img src="https://s1.ax1x.com/2022/08/26/v2WSS0.png" alt="v2WSS0.png"></a></p>
+<p>MySQL的默认端口号是3306：</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/v2Wcpq"><img src="https://s1.ax1x.com/2022/08/26/v2Wcpq.png" alt="v2Wcpq.png"></a></p>
+<p>设置MySQL的登录密码：</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/v2WThR"><img src="https://s1.ax1x.com/2022/08/26/v2WThR.png" alt="v2WThR.png"></a></p>
+<p>最后的配置：</p>
+<p><a target="_blank" rel="noopener" href="https://imgse.com/i/v2WLjK"><img src="https://s1.ax1x.com/2022/08/26/v2WLjK.png" alt="v2WLjK.png"></a></p>
+<p>MySQL的服务名称：</p>
+<p>mysql80</p>
+<p>进入MySQL：</p>
+<p>打开MySQL8.0 command line Client </p>
+<p>输入设置的登录密码。</p>
+<p>将MySQL添加至CMD：</p>
+<p>打开环境变量，找到Path，找到MySQL的存储路径，将bin目录的路径添加进去。</p>
+</p><div class="tip">本文采用CC-BY-SA-3.0协议，转载请注明出处<br>作者: Ki3ler</div></div><div class="post-footer"><div class="meta"><div class="info"><i class="fa fa-sun-o"></i><span class="date">2022-08-26</span><span class="leancloud_visitors"></span><span>大约314个字, 1分钟2秒读完</span></div></div></div></div><div class="share"><div class="evernote"><a class="fa fa-bookmark" href="" onclick="javascript:join_favorite()" ref="sidebar"></a></div><div class="weibo"><a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a></div><div class="twitter"><a class="fa fa-twitter" target="_blank" rel="noopener" href="http://twitter.com/home?status=,https://Ki3ler.github.io/2022/08/26/Mysql-学习笔记-Write-Up/,Ki3ler,Mysql Write Up,;"></a></div></div><div class="pagination"><ul class="clearfix"><li class="next pagbuttons"><a class="btn" role="navigation" href="/2022/08/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" title="Hello World！">下一篇</a></li></ul></div><script src="/js/visitors.js"></script></div></div></div></div><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/add-bookmark.js"></script><script>(function(window){var INSIGHT_CONFIG={TRANSLATION:{POSTS:"文章",PAGES:"页面",CATEGORIES:"分类",TAGS:"标签",UNTITLED:"(无标题)",},CONTENT_URL:"/content.json",};window.INSIGHT_CONFIG=INSIGHT_CONFIG})(window);</script><script src="/js/insight.js" defer></script><div class="searchbox ins-search"><div class="searchbox-container ins-search-container"><div class="searchbox-input-wrapper"><input class="searchbox-input ins-search-input" type="text" placeholder="想要查找什么..."><span class="searchbox-close"><a class="fa fa-times-circle" onclick="closeWindow();"></a></span></div><div class="searchbox-result-wrapper ins-section-wrapper"><div class="ins-section-container"><p>Seraching...</p></div></div></div></div></body></html>
